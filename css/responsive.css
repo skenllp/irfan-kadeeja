@@ -266,6 +266,20 @@
     height: 36px;
   }
 
+  /* --- Regards Section --- */
+  .regards-section {
+    padding: var(--sp-5) 0;
+  }
+
+  .regards-card {
+    padding: 28px 18px;
+    margin: 0 8px;
+  }
+
+  .regards-card__names {
+    font-size: clamp(2rem, 8vw, 2.6rem);
+  }
+
   /* --- Footer --- */
   .footer__floral--l,
   .footer__floral--r {
