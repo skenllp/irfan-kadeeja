@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Irfan Al Rehman &amp; Kadeja Liyana — Wedding Invitation | November 15, 2026</title>
+  <meta name="description"
+    content="With Allah's blessing, together with their families, Irfan Al Rehman &amp; Kadeja Liyana invite you to our wedding on Sunday, November 15th 2026 at Meruzila Convention Center Koduvally.">
+  <link rel="canonical" href="./">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Irfan Al Rehman &amp; Kadeja Liyana — Wedding Invitation">
+  <meta property="og:description"
+    content="With Allah's blessing, together with their families, Irfan Al Rehman &amp; Kadeja Liyana invite you to our wedding — Sunday, November 15th 2026, Meruzila Convention Center Koduvally.">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Irfan Al Rehman &amp; Kadeja Liyana — Wedding Invitation, November 15 2026">
+  <meta property="og:url" content="./">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Irfan Al Rehman &amp; Kadeja Liyana — Wedding Invitation">
+  <meta name="twitter:description" content="Sunday, November 15th 2026 · Meruzila Convention Center Koduvally">
+  <meta name="twitter:image" content="images/og-image.jpg">
+  <meta name="twitter:image:alt" content="Irfan Al Rehman &amp; Kadeja Liyana — Wedding Invitation, November 15 2026">
+
+  <link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1B2218">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css?v=1.3">
+  <link rel="stylesheet" href="css/animations.css?v=1.3">
+  <link rel="stylesheet" href="css/responsive.css?v=1.3">
+
+  <!-- Schema.org WeddingEvent -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Wedding of Irfan Al Rehman & Kadeja Liyana",
+  "startDate": "2026-11-15T11:00:00+05:30",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": {
+    "@type": "Place",
+    "name": "Meruzila Convention Center",
+    "address": "Koduvally, Kozhikode, Kerala, India"
+  },
+  "description": "With Allah's blessing, together with their families, Irfan Al Rehman & Kadeja Liyana invite you to our wedding.",
+  "performer": [
+    { "@type": "Person", "name": "Irfan Al Rehman" },
+    { "@type": "Person", "name": "Kadeja Liyana" }
+  ]
+}
+</script>
+</head>
+
+<body>
+
+  <!-- Floating flowers layer — fixed to viewport, never intercepts clicks -->
+  <div id="floating-flowers" class="floating-flowers" aria-hidden="true"></div>
+
+  <!-- ============================= LOADER ============================= -->
+  <div class="loader" aria-hidden="true" id="loader">
+    <div class="loader__monogram">I &amp; K</div>
+    <div class="loader__tagline">Wedding Invitation</div>
+    <div class="loader__bar-wrap">
+      <div class="loader__bar"></div>
+    </div>
+  </div>
+
+  <!-- ======================= OPENING GATE / INTRO ====================== -->
+  <div class="gate" role="dialog" aria-label="Opening invitation" id="gate">
+    <!-- Floral corners on gate -->
+    <div class="gate__floral gate__floral--tl" aria-hidden="true">
+      <img src="images/floral-corner.svg" alt="">
+    </div>
+    <div class="gate__floral gate__floral--br" aria-hidden="true">
+      <img src="images/floral-corner.svg" alt="">
+    </div>
+    <div class="gate__inner">
+      <p class="gate__arabic" dir="rtl" lang="ar">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+      <p class="gate__eyebrow">WITH ALLAH'S BLESSING<br>TOGETHER WITH THEIR FAMILIES</p>
+      <h1 class="gate__names">Irfan Al Rehman <span class="gate__amp">&amp;</span> Kadeja Liyana</h1>
+      <p class="gate__invite-text">INVITE YOU TO OUR WEDDING</p>
+      <p class="gate__date">Sunday · November 15, 2026</p>
+      <div class="gate__venue">Meruzila Convention Center Koduvally</div>
+      <button type="button" class="btn btn--gate btn--ripple" id="open-invitation-btn" data-open-invitation>
+        <span class="btn__icon">✦</span>
+        Open Invitation
+      </button>
+    </div>
+    <!-- Decorative bottom divider -->
+    <div class="gate__divider" aria-hidden="true">
+      <span></span><span class="gate__divider-glyph">❋</span><span></span>
+    </div>
+  </div>
+
+  <!-- ============================== NAV ================================ -->
+  <nav class="nav" aria-label="Section navigation" id="main-nav">
+    <div class="nav__brand">I &amp; K</div>
+    <ul class="nav__list">
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#couple">The Couple</a></li>
+      <!-- <li><a href="#timeline">The Day</a></li> -->
+      <li><a href="#venue">Venue</a></li>
+      <li><a href="#wishes">Wishes</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============================== HERO ================================ -->
+  <header class="hero" id="top">
+
+    <!-- Full background image (hero-bg.jpg) -->
+    <div class="hero__bg" aria-hidden="true">
+      <img src="images/hero-bg.jpg" alt="" class="hero__bg-img">
+      <div class="hero__bg-overlay"></div>
+    </div>
+
+    <!-- Date & Countdown Badge — absolute top-right -->
+    <div class="hero__date-badge" aria-label="Wedding date countdown">
+      <div class="hero__badge-date">
+        <span class="hero__badge-day">SUNDAY</span>
+        <span class="hero__badge-num">15TH NOV.</span>
+        <span class="hero__badge-year">2026</span>
+      </div>
+      <div class="hero__badge-divider"></div>
+      <div class="hero__badge-days-go">
+        <span class="hero__days-num" id="hero-days-to-go">--</span>
+        <span class="hero__days-label">DAYS TO GO</span>
+      </div>
+    </div>
+
+    <!-- Main centered content overlaid on background -->
+    <div class="container hero__container">
+      <div class="hero__content">
+        <p class="hero__eyebrow">WITH ALLAH'S BLESSING &middot; TOGETHER WITH THEIR FAMILIES</p>
+        <h2 class="hero__names text-reveal">Irfan Al Rehman <span class="hero__amp">&amp;</span> Kadeja Liyana</h2>
+        <p class="hero__invite">INVITE YOU TO OUR WEDDING</p>
+        <a href="#countdown" class="btn btn--ripple" id="view-details-btn">
+          <span class="btn__icon">✦</span>
+          View Details
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="hero__scroll" aria-hidden="true">
+      <span class="hero__scroll-text">Scroll</span>
+      <span class="hero__scroll-line"></span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================ COUNTDOWN ============================ -->
+    <section class="section section--countdown" id="countdown">
+      <div class="section__bg-pattern" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Save the Date</p>
+          <h2 class="section-title">Counting Down to Our Wedding</h2>
+          <p class="section-sub">Can't wait to have you be a part of our special day — it's almost time</p>
+          <div class="divider"><span class="divider__line"></span><span class="divider__glyph">✦</span><span
+              class="divider__line"></span></div>
+        </div>
+
+        <div class="countdown reveal" data-delay="1" id="countdown-timer">
+          <div class="countdown__unit">
+            <div class="countdown__card">
+              <span class="countdown__num" data-count="days" id="count-days">00</span>
+            </div>
+            <span class="countdown__label">Days</span>
+          </div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__unit">
+            <div class="countdown__card">
+              <span class="countdown__num" data-count="hours" id="count-hours">00</span>
+            </div>
+            <span class="countdown__label">Hours</span>
+          </div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__unit">
+            <div class="countdown__card">
+              <span class="countdown__num" data-count="minutes" id="count-minutes">00</span>
+            </div>
+            <span class="countdown__label">Minutes</span>
+          </div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__unit">
+            <div class="countdown__card">
+              <span class="countdown__num" data-count="seconds" id="count-seconds">00</span>
+            </div>
+            <span class="countdown__label">Seconds</span>
+          </div>
+        </div>
+
+        <!-- Wedding date badge -->
+        <div class="wedding-date-badge reveal" data-delay="2">
+          <span class="badge__day">15</span>
+          <div class="badge__info">
+            <span class="badge__month">November 2026</span>
+            <span class="badge__weekday">Sunday</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== STORY =============================== -->
+    <section class="section section--alt" id="story">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Our Story</p>
+          <h2 class="section-title">A Beginning, By His Grace</h2>
+          <div class="divider"><span class="divider__line"></span><span class="divider__glyph">✦</span><span
+              class="divider__line"></span></div>
+        </div>
+
+        <div class="story reveal" data-delay="1">
+          <div class="story__quote" aria-hidden="true">"</div>
+          <p>Every story is written before it is lived. Ours began quietly, in ordinary days that slowly turned into
+            something we could not imagine apart from one another.</p>
+          <p>With gratitude to Allah for bringing our families together, we now begin the next chapter — one built on
+            faith, patience, and love — and we would be honoured to have you beside us as we take this first step.</p>
+          <p class="story__signature">Irfan Al Rehman &amp; Kadeja Liyana</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================== THE COUPLE ============================== -->
+    <section class="section couple-section" id="couple">
+      <div class="section__bg-pattern" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">With Allah's Blessing</p>
+          <h2 class="section-title">The Couple</h2>
+          <p class="section-sub">Together with their families</p>
+          <div class="divider"><span class="divider__line"></span><span class="divider__glyph">✦</span><span
+              class="divider__line"></span></div>
+        </div>
+
+        <div class="couple-cards reveal" data-delay="1">
+
+          <!-- ── Groom Card ── -->
+          <article class="couple-card couple-card--groom" aria-label="Groom">
+            <div class="couple-card__floral" aria-hidden="true">
+              <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                <g fill="var(--color-gold)" opacity="0.35">
+                  <ellipse cx="40" cy="18" rx="10" ry="18" />
+                  <ellipse cx="40" cy="18" rx="10" ry="18" transform="rotate(72 40 40)" />
+                  <ellipse cx="40" cy="18" rx="10" ry="18" transform="rotate(144 40 40)" />
+                  <ellipse cx="40" cy="18" rx="10" ry="18" transform="rotate(216 40 40)" />
+                  <ellipse cx="40" cy="18" rx="10" ry="18" transform="rotate(288 40 40)" />
+                  <circle cx="40" cy="40" r="8" fill="var(--color-gold-light)" />
+                </g>
+              </svg>
+            </div>
+
+            <div class="couple-card__body">
+              <p class="couple-card__role">The Groom</p>
+              <h3 class="couple-card__name">Irfan Al Rehman</h3>
+              <div class="couple-card__divider" aria-hidden="true"></div>
+              <p class="couple-card__parents-label">Son of</p>
+              <p class="couple-card__parents">SIDDIQUE EC<span class="couple-card__parent-amp">&amp;</span>SEENATH E C</p>
+              <div class="couple-card__regards">
+                <p class="couple-card__regards-label">Best regards from</p>
+                <p class="couple-card__regards-names">Ihsana And Shammas</p>
+              </div>
+            </div>
+
+            <div class="couple-card__ornament" aria-hidden="true">❋</div>
+          </article>
+
+          <!-- ── Centre connector ── -->
+          <div class="couple-connector" aria-hidden="true">
+            <span class="couple-connector__line"></span>
+            <span class="couple-connector__glyph">و</span>
+            <span class="couple-connector__line"></span>
+          </div>
+
+          <!-- ── Bride Card ── -->
+          <article class="couple-card couple-card--bride" aria-label="Bride">
+            <div class="couple-card__floral" aria-hidden="true">
+              <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                <g fill="var(--color-gold)" opacity="0.35">
+                  <ellipse cx="40" cy="18" rx="10" ry="18" />
+                  <ellipse cx="40" cy="18" rx="10" ry="18" transform="rotate(72 40 40)" />
+                  <ellipse cx="40" cy="18" rx="10" ry="18" transform="rotate(144 40 40)" />
+                  <ellipse cx="40" cy="18" rx="10" ry="18" transform="rotate(216 40 40)" />
+                  <ellipse cx="40" cy="18" rx="10" ry="18" transform="rotate(288 40 40)" />
+                  <circle cx="40" cy="40" r="8" fill="var(--color-gold-light)" />
+                </g>
+              </svg>
+            </div>
+
+            <div class="couple-card__body">
+              <p class="couple-card__role">The Bride</p>
+              <h3 class="couple-card__name">Kadeja Liyana</h3>
+              <div class="couple-card__divider" aria-hidden="true"></div>
+              <p class="couple-card__parents-label">Daughter of</p>
+              <p class="couple-card__parents">Younu Saleem PP<span class="couple-card__parent-amp">&amp;</span>Sara PP</p>
+            </div>
+
+            <div class="couple-card__ornament" aria-hidden="true">❋</div>
+          </article>
+
+        </div><!-- /.couple-cards -->
+      </div>
+    </section>
+
+    <!-- ============================= TIMELINE (THE DAY) ============================= -->
+    <!--
+    <section class="section section--alt" id="timeline">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">The Day</p>
+          <h2 class="section-title">Wedding Day Schedule</h2>
+          <div class="divider"><span class="divider__line"></span><span class="divider__glyph">✦</span><span
+              class="divider__line"></span></div>
+        </div>
+
+        <div class="timeline" id="timeline-track">
+          <div class="timeline__line" aria-hidden="true"></div>
+
+          <div class="timeline__item timeline__item--left reveal">
+            <div class="timeline__content">
+              <p class="timeline__time">3:30 PM</p>
+              <h3 class="timeline__title">Nikkah Ceremony</h3>
+              <p class="timeline__desc">The sacred union, witnessed by family and loved ones.</p>
+            </div>
+            <div class="timeline__dot-wrap" aria-hidden="true">
+              <span class="timeline__dot"></span>
+            </div>
+            <div class="timeline__spacer"></div>
+          </div>
+
+          <div class="timeline__item timeline__item--right reveal" data-delay="1">
+            <div class="timeline__spacer"></div>
+            <div class="timeline__dot-wrap" aria-hidden="true">
+              <span class="timeline__dot"></span>
+            </div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Reception</h3>
+              <p class="timeline__desc">Photographs, blessings, and celebration with guests.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item timeline__item--left reveal" data-delay="2">
+            <div class="timeline__content">
+              <h3 class="timeline__title">Dinner</h3>
+              <p class="timeline__desc">An evening feast to close the celebration together.</p>
+            </div>
+            <div class="timeline__dot-wrap" aria-hidden="true">
+              <span class="timeline__dot"></span>
+            </div>
+            <div class="timeline__spacer"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <!-- ============================== VENUE ================================ -->
+    <section class="section venue" id="venue">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Join Us At</p>
+          <h2 class="section-title">Meruzila Convention Center</h2>
+          <p class="section-sub">Koduvally, Kozhikode, Kerala</p>
+          <div class="divider"><span class="divider__line"></span><span class="divider__glyph">✦</span><span
+              class="divider__line"></span></div>
+        </div>
+
+        <div class="venue__map reveal-scale" id="venue-map">
+          <iframe title="Map to Meruzila Convention Center Koduvally"
+            src="https://www.google.com/maps?q=Meruzila+Convention+Center+Koduvally&output=embed" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+
+        <div class="venue__details reveal" data-delay="1">
+          <div class="venue__info-grid">
+            <div class="venue__info-item">
+              <span class="venue__info-icon" aria-hidden="true">📍</span>
+              <div>
+                <strong>Venue</strong>
+                <span>Meruzila Convention Center</span>
+              </div>
+            </div>
+            <div class="venue__info-item">
+              <span class="venue__info-icon" aria-hidden="true">📅</span>
+              <div>
+                <strong>Date</strong>
+                <span>Sunday, November 15, 2026</span>
+              </div>
+            </div>
+            <div class="venue__info-item">
+              <span class="venue__info-icon" aria-hidden="true">🏛️</span>
+              <div>
+                <strong>Location</strong>
+                <span>Koduvally, Kozhikode, Kerala</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="venue__actions reveal" data-delay="2">
+          <a class="btn btn--ripple" id="directions-btn"
+            href="https://www.google.com/maps/dir/?api=1&destination=Meruzila+Convention+Center+Koduvally" target="_blank"
+            rel="noopener">
+            <span class="btn__icon">✦</span>
+            Get Directions
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== RSVP ================================ -->
+    <!-- <section class="section section--alt section--rsvp" id="rsvp">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Your Presence</p>
+        <h2 class="section-title">Will You Join Us?</h2>
+        <p class="section-sub">Let us know if you'll be celebrating with us — your presence is our greatest gift.</p>
+        <div class="divider"><span class="divider__line"></span><span class="divider__glyph">✦</span><span class="divider__line"></span></div>
+      </div>
+
+      <div class="rsvp reveal" data-delay="1" id="rsvp-form-wrap">
+        <form class="rsvp__form" id="rsvp-form" novalidate>
+          <div class="rsvp__field">
+            <label for="rsvp-name" class="rsvp__label">Your Name</label>
+            <input type="text" id="rsvp-name" name="name" class="rsvp__input" placeholder="Enter your full name" autocomplete="name" required>
+          </div>
+
+          <div class="rsvp__field">
+            <label class="rsvp__label">Will you be attending?</label>
+            <div class="rsvp__choices" role="radiogroup" aria-label="Attendance">
+              <label class="rsvp__choice rsvp__choice--yes" id="choice-yes-label">
+                <input type="radio" name="attending" value="yes" id="rsvp-yes" required>
+                <span class="rsvp__choice-icon" aria-hidden="true">✦</span>
+                <span>Joyfully Accepts</span>
+              </label>
+              <label class="rsvp__choice rsvp__choice--no" id="choice-no-label">
+                <input type="radio" name="attending" value="no" id="rsvp-no">
+                <span class="rsvp__choice-icon" aria-hidden="true">✦</span>
+                <span>Regretfully Declines</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="rsvp__field">
+            <label for="rsvp-guests" class="rsvp__label">Number of Guests</label>
+            <select id="rsvp-guests" name="guests" class="rsvp__select">
+              <option value="1">Just Me</option>
+              <option value="2">2 Guests</option>
+              <option value="3">3 Guests</option>
+              <option value="4">4 Guests</option>
+              <option value="5+">5+ Guests</option>
+            </select>
+          </div>
+
+          <div class="rsvp__field">
+            <label for="rsvp-wishes" class="rsvp__label">Send Your Wishes <span class="rsvp__optional">(optional)</span></label>
+            <textarea id="rsvp-wishes" name="wishes" class="rsvp__textarea" placeholder="Write a message for the couple…" rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--rsvp btn--ripple" id="rsvp-submit-btn">
+            <span class="btn__icon">✦</span>
+            Send RSVP
+          </button>
+        </form>
+
+        <div class="rsvp__success" id="rsvp-success" aria-live="polite" hidden>
+          <div class="rsvp__success-icon" aria-hidden="true">✦</div>
+          <h3>Thank You!</h3>
+          <p>We've received your RSVP and can't wait to celebrate with you, In Sha Allah.</p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+    <!-- ============================== WISHES ================================ -->
+    <section class="section section--wishes" id="wishes">
+      <div class="container container--wishes">
+        <div class="section-head reveal">
+          <p class="eyebrow">Wishes</p>
+          <h2 class="section-title">Blessings from Loved Ones</h2>
+          <div class="divider"><span class="divider__line"></span><span class="divider__glyph">✦</span><span
+              class="divider__line"></span></div>
+        </div>
+
+        <div class="wishes-carousel-wrap reveal" data-delay="1">
+          <div class="wishes-carousel-container" id="wishes-carousel-container">
+            <div class="wishes-carousel" id="wishes-carousel">
+
+              <!-- Wish Card 1 -->
+              <div class="wish-card">
+                <!-- Leaf graphics -->
+                <div class="wish-card__decor wish-card__decor--tr">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 10 C35 10 15 25 15 45 C15 65 30 90 50 90 C70 90 85 65 85 45 C85 25 65 10 50 10 Z"
+                      fill="#607254" fill-opacity="0.12" />
+                    <path d="M50 10 C48 10 46 11 45 12 C43 14 42 17 42 20 C42 25 45 35 48 45 L50 90 M50 90 L52 93"
+                      stroke="#607254" stroke-width="1.2" stroke-opacity="0.25" />
+                    <path d="M48 35 C40 32 30 30 20 32 M48 45 C38 43 28 42 16 48 M48 55 C38 56 26 58 18 68"
+                      stroke="#607254" stroke-width="1" stroke-opacity="0.2" />
+                    <path d="M52 35 C60 32 70 30 80 32 M52 45 C62 43 72 42 84 48 M52 55 C62 56 74 58 82 68"
+                      stroke="#607254" stroke-width="1" stroke-opacity="0.2" />
+                  </svg>
+                </div>
+                <div class="wish-card__decor wish-card__decor--bl">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 90 C30 75 60 45 80 10" stroke="#607254" stroke-width="1.2" stroke-opacity="0.25" />
+                    <path d="M25 75 C18 68 15 58 16 50 C22 55 26 65 25 75 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M38 62 C30 55 25 45 28 38 C32 42 36 50 38 62 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M50 50 C42 42 38 32 40 25 C45 30 48 38 50 50 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M62 38 C55 30 50 20 52 14 C56 18 58 26 62 38 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M30 80 C38 78 48 76 55 80 C50 84 42 86 30 80 Z" fill="#607254" fill-opacity="0.12" />
+                    <path d="M42 68 C50 65 60 62 68 65 C62 70 52 72 42 68 Z" fill="#607254" fill-opacity="0.12" />
+                    <path d="M55 55 C62 50 72 48 80 50 C74 55 65 58 55 55 Z" fill="#607254" fill-opacity="0.12" />
+                  </svg>
+                </div>
+                <div class="wish-card__decor wish-card__decor--bg">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#607254" stroke-opacity="0.04" stroke-width="0.8">
+                      <circle cx="50" cy="50" r="12" />
+                      <path
+                        d="M50 38 C40 20 60 20 50 38 Z M50 62 C40 80 60 80 50 62 Z M38 50 C20 40 20 60 38 50 Z M62 50 C80 40 80 60 62 50 Z" />
+                      <path
+                        d="M41 41 C28 28 44 18 41 41 Z M59 59 C72 72 56 82 59 59 Z M41 59 C28 72 44 82 41 59 Z M59 41 C72 28 56 18 59 41 Z" />
+                    </g>
+                  </svg>
+                </div>
+
+                <!-- Content -->
+                <div class="wish-card__quote" aria-hidden="true">“</div>
+                <p class="wish-card__text">Dear best friend,<br>Finally the time has come ,you have found your soul
+                  mate. Wish you a happiest married life and your love to be happly ever after</p>
+                <div class="wish-card__signature">
+                  <span class="wish-card__icon">🍃</span> Nihala
+                </div>
+              </div>
+
+              <!-- Wish Card 2 -->
+              <div class="wish-card">
+                <!-- Leaf graphics -->
+                <div class="wish-card__decor wish-card__decor--tr">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 10 C35 10 15 25 15 45 C15 65 30 90 50 90 C70 90 85 65 85 45 C85 25 65 10 50 10 Z"
+                      fill="#607254" fill-opacity="0.12" />
+                    <path d="M50 10 C48 10 46 11 45 12 C43 14 42 17 42 20 C42 25 45 35 48 45 L50 90 M50 90 L52 93"
+                      stroke="#607254" stroke-width="1.2" stroke-opacity="0.25" />
+                    <path d="M48 35 C40 32 30 30 20 32 M48 45 C38 43 28 42 16 48 M48 55 C38 56 26 58 18 68"
+                      stroke="#607254" stroke-width="1" stroke-opacity="0.2" />
+                    <path d="M52 35 C60 32 70 30 80 32 M52 45 C62 43 72 42 84 48 M52 55 C62 56 74 58 82 68"
+                      stroke="#607254" stroke-width="1" stroke-opacity="0.2" />
+                  </svg>
+                </div>
+                <div class="wish-card__decor wish-card__decor--bl">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 90 C30 75 60 45 80 10" stroke="#607254" stroke-width="1.2" stroke-opacity="0.25" />
+                    <path d="M25 75 C18 68 15 58 16 50 C22 55 26 65 25 75 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M38 62 C30 55 25 45 28 38 C32 42 36 50 38 62 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M50 50 C42 42 38 32 40 25 C45 30 48 38 50 50 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M62 38 C55 30 50 20 52 14 C56 18 58 26 62 38 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M30 80 C38 78 48 76 55 80 C50 84 42 86 30 80 Z" fill="#607254" fill-opacity="0.12" />
+                    <path d="M42 68 C50 65 60 62 68 65 C62 70 52 72 42 68 Z" fill="#607254" fill-opacity="0.12" />
+                    <path d="M55 55 C62 50 72 48 80 50 C74 55 65 58 55 55 Z" fill="#607254" fill-opacity="0.12" />
+                  </svg>
+                </div>
+                <div class="wish-card__decor wish-card__decor--bg">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#607254" stroke-opacity="0.04" stroke-width="0.8">
+                      <circle cx="50" cy="50" r="12" />
+                      <path
+                        d="M50 38 C40 20 60 20 50 38 Z M50 62 C40 80 60 80 50 62 Z M38 50 C20 40 20 60 38 50 Z M62 50 C80 40 80 60 62 50 Z" />
+                      <path
+                        d="M41 41 C28 28 44 18 41 41 Z M59 59 C72 72 56 82 59 59 Z M41 59 C28 72 44 82 41 59 Z M59 41 C72 28 56 18 59 41 Z" />
+                    </g>
+                  </svg>
+                </div>
+
+                <!-- Content -->
+                <div class="wish-card__quote" aria-hidden="true">“</div>
+                <p class="wish-card__text">From classmates to lifelong friends, it's been a joy to witness your journey.
+                  Wishing you both a lifetime filled with love, laughter, blessings, and beautiful memories..🥹
+                  Congratulations on your new beginning! ❤️🧿</p>
+                <div class="wish-card__signature">
+                  <span class="wish-card__icon">🍃</span> Faheemal Aliya
+                </div>
+              </div>
+
+              <!-- Wish Card 3 -->
+              <div class="wish-card">
+                <!-- Leaf graphics -->
+                <div class="wish-card__decor wish-card__decor--tr">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 10 C35 10 15 25 15 45 C15 65 30 90 50 90 C70 90 85 65 85 45 C85 25 65 10 50 10 Z"
+                      fill="#607254" fill-opacity="0.12" />
+                    <path d="M50 10 C48 10 46 11 45 12 C43 14 42 17 42 20 C42 25 45 35 48 45 L50 90 M50 90 L52 93"
+                      stroke="#607254" stroke-width="1.2" stroke-opacity="0.25" />
+                    <path d="M48 35 C40 32 30 30 20 32 M48 45 C38 43 28 42 16 48 M48 55 C38 56 26 58 18 68"
+                      stroke="#607254" stroke-width="1" stroke-opacity="0.2" />
+                    <path d="M52 35 C60 32 70 30 80 32 M52 45 C62 43 72 42 84 48 M52 55 C62 56 74 58 82 68"
+                      stroke="#607254" stroke-width="1" stroke-opacity="0.2" />
+                  </svg>
+                </div>
+                <div class="wish-card__decor wish-card__decor--bl">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 90 C30 75 60 45 80 10" stroke="#607254" stroke-width="1.2" stroke-opacity="0.25" />
+                    <path d="M25 75 C18 68 15 58 16 50 C22 55 26 65 25 75 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M38 62 C30 55 25 45 28 38 C32 42 36 50 38 62 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M50 50 C42 42 38 32 40 25 C45 30 48 38 50 50 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M62 38 C55 30 50 20 52 14 C56 18 58 26 62 38 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M30 80 C38 78 48 76 55 80 C50 84 42 86 30 80 Z" fill="#607254" fill-opacity="0.12" />
+                    <path d="M42 68 C50 65 60 62 68 65 C62 70 52 72 42 68 Z" fill="#607254" fill-opacity="0.12" />
+                    <path d="M55 55 C62 50 72 48 80 50 C74 55 65 58 55 55 Z" fill="#607254" fill-opacity="0.12" />
+                  </svg>
+                </div>
+                <div class="wish-card__decor wish-card__decor--bg">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#607254" stroke-opacity="0.04" stroke-width="0.8">
+                      <circle cx="50" cy="50" r="12" />
+                      <path
+                        d="M50 38 C40 20 60 20 50 38 Z M50 62 C40 80 60 80 50 62 Z M38 50 C20 40 20 60 38 50 Z M62 50 C80 40 80 60 62 50 Z" />
+                      <path
+                        d="M41 41 C28 28 44 18 41 41 Z M59 59 C72 72 56 82 59 59 Z M41 59 C28 72 44 82 41 59 Z M59 41 C72 28 56 18 59 41 Z" />
+                    </g>
+                  </svg>
+                </div>
+
+                <!-- Content -->
+                <div class="wish-card__quote" aria-hidden="true">“</div>
+                <p class="wish-card__text">Congratulations, my dearest best friend! ❤️ Wishing you both a lifetime of
+                  love, laughter, happiness, and beautiful memories together. Seeing you begin this beautiful new
+                  chapter fills my heart with so much joy. You deserve all the love and happiness in the world, and I
+                  couldn't be happier for you. May your hearts always find their way back to each other. Stay blessed
+                  always. Love you!</p>
+                <div class="wish-card__signature">
+                  <span class="wish-card__icon">🍃</span> Risana
+                </div>
+              </div>
+
+              <!-- Wish Card 4 -->
+              <div class="wish-card">
+                <!-- Leaf graphics -->
+                <div class="wish-card__decor wish-card__decor--tr">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 10 C35 10 15 25 15 45 C15 65 30 90 50 90 C70 90 85 65 85 45 C85 25 65 10 50 10 Z"
+                      fill="#607254" fill-opacity="0.12" />
+                    <path d="M50 10 C48 10 46 11 45 12 C43 14 42 17 42 20 C42 25 45 35 48 45 L50 90 M50 90 L52 93"
+                      stroke="#607254" stroke-width="1.2" stroke-opacity="0.25" />
+                    <path d="M48 35 C40 32 30 30 20 32 M48 45 C38 43 28 42 16 48 M48 55 C38 56 26 58 18 68"
+                      stroke="#607254" stroke-width="1" stroke-opacity="0.2" />
+                    <path d="M52 35 C60 32 70 30 80 32 M52 45 C62 43 72 42 84 48 M52 55 C62 56 74 58 82 68"
+                      stroke="#607254" stroke-width="1" stroke-opacity="0.2" />
+                  </svg>
+                </div>
+                <div class="wish-card__decor wish-card__decor--bl">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 90 C30 75 60 45 80 10" stroke="#607254" stroke-width="1.2" stroke-opacity="0.25" />
+                    <path d="M25 75 C18 68 15 58 16 50 C22 55 26 65 25 75 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M38 62 C30 55 25 45 28 38 C32 42 36 50 38 62 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M50 50 C42 42 38 32 40 25 C45 30 48 38 50 50 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M62 38 C55 30 50 20 52 14 C56 18 58 26 62 38 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M30 80 C38 78 48 76 55 80 C50 84 42 86 30 80 Z" fill="#607254" fill-opacity="0.12" />
+                    <path d="M42 68 C50 65 60 62 68 65 C62 70 52 72 42 68 Z" fill="#607254" fill-opacity="0.12" />
+                    <path d="M55 55 C62 50 72 48 80 50 C74 55 65 58 55 55 Z" fill="#607254" fill-opacity="0.12" />
+                  </svg>
+                </div>
+                <div class="wish-card__decor wish-card__decor--bg">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#607254" stroke-opacity="0.04" stroke-width="0.8">
+                      <circle cx="50" cy="50" r="12" />
+                      <path
+                        d="M50 38 C40 20 60 20 50 38 Z M50 62 C40 80 60 80 50 62 Z M38 50 C20 40 20 60 38 50 Z M62 50 C80 40 80 60 62 50 Z" />
+                      <path
+                        d="M41 41 C28 28 44 18 41 41 Z M59 59 C72 72 56 82 59 59 Z M41 59 C28 72 44 82 41 59 Z M59 41 C72 28 56 18 59 41 Z" />
+                    </g>
+                  </svg>
+                </div>
+
+                <!-- Content -->
+                <div class="wish-card__quote" aria-hidden="true">“</div>
+                <p class="wish-card__text">We’ve shared countless memories since our school days, and it’s hard to
+                  believe we’ve reached this beautiful chapter. Seeing you get married fills my heart with joy. May
+                  Allah bless you both with endless love, peace, barakah, and happiness. Wishing you a lifetime of
+                  beautiful moments together. Congratulations, my brother! 🤍✨</p>
+                <div class="wish-card__signature">
+                  <span class="wish-card__icon">🍃</span> Swafdil
+                </div>
+              </div>
+
+              <!-- Wish Card 5 -->
+              <div class="wish-card">
+                <!-- Leaf graphics -->
+                <div class="wish-card__decor wish-card__decor--tr">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 10 C35 10 15 25 15 45 C15 65 30 90 50 90 C70 90 85 65 85 45 C85 25 65 10 50 10 Z"
+                      fill="#607254" fill-opacity="0.12" />
+                    <path d="M50 10 C48 10 46 11 45 12 C43 14 42 17 42 20 C42 25 45 35 48 45 L50 90 M50 90 L52 93"
+                      stroke="#607254" stroke-width="1.2" stroke-opacity="0.25" />
+                    <path d="M48 35 C40 32 30 30 20 32 M48 45 C38 43 28 42 16 48 M48 55 C38 56 26 58 18 68"
+                      stroke="#607254" stroke-width="1" stroke-opacity="0.2" />
+                    <path d="M52 35 C60 32 70 30 80 32 M52 45 C62 43 72 42 84 48 M52 55 C62 56 74 58 82 68"
+                      stroke="#607254" stroke-width="1" stroke-opacity="0.2" />
+                  </svg>
+                </div>
+                <div class="wish-card__decor wish-card__decor--bl">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 90 C30 75 60 45 80 10" stroke="#607254" stroke-width="1.2" stroke-opacity="0.25" />
+                    <path d="M25 75 C18 68 15 58 16 50 C22 55 26 65 25 75 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M38 62 C30 55 25 45 28 38 C32 42 36 50 38 62 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M50 50 C42 42 38 32 40 25 C45 30 48 38 50 50 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M62 38 C55 30 50 20 52 14 C56 18 58 26 62 38 Z" fill="#607254" fill-opacity="0.15" />
+                    <path d="M30 80 C38 78 48 76 55 80 C50 84 42 86 30 80 Z" fill="#607254" fill-opacity="0.12" />
+                    <path d="M42 68 C50 65 60 62 68 65 C62 70 52 72 42 68 Z" fill="#607254" fill-opacity="0.12" />
+                    <path d="M55 55 C62 50 72 48 80 50 C74 55 65 58 55 55 Z" fill="#607254" fill-opacity="0.12" />
+                  </svg>
+                </div>
+                <div class="wish-card__decor wish-card__decor--bg">
+                  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#607254" stroke-opacity="0.04" stroke-width="0.8">
+                      <circle cx="50" cy="50" r="12" />
+                      <path
+                        d="M50 38 C40 20 60 20 50 38 Z M50 62 C40 80 60 80 50 62 Z M38 50 C20 40 20 60 38 50 Z M62 50 C80 40 80 60 62 50 Z" />
+                      <path
+                        d="M41 41 C28 28 44 18 41 41 Z M59 59 C72 72 56 82 59 59 Z M41 59 C28 72 44 82 41 59 Z M59 41 C72 28 56 18 59 41 Z" />
+                    </g>
+                  </svg>
+                </div>
+
+                <!-- Content -->
+                <div class="wish-card__quote" aria-hidden="true">"</div>
+                <p class="wish-card__text">Congratulations on your wedding, Irfan &#127775; Wishing you both a lifetime of love, joy and beautiful memories. Cheers to this amazing new chapter, my brother &#127881;</p>
+                <div class="wish-card__signature">
+                  <span class="wish-card__icon">&#10084;&#65039;</span> Razak
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Indicator dots -->
+          <div class="wishes-dots" id="wishes-dots">
+            <!-- Dynamic elements loaded via JS -->
+          </div>
+
+          <!-- Slider navigation buttons -->
+          <button class="wishes-nav wishes-nav--prev" id="wishes-prev" aria-label="Previous wish">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <button class="wishes-nav wishes-nav--next" id="wishes-next" aria-label="Next wish">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================== FOOTER ================================ -->
+  <footer class="footer">
+    <div class="footer__florals" aria-hidden="true">
+      <img src="images/floral-corner.svg" alt="" class="footer__floral footer__floral--l">
+      <img src="images/floral-corner.svg" alt="" class="footer__floral footer__floral--r">
+    </div>
+    <div class="footer__inner">
+      <div class="divider divider--footer"><span class="divider__line"></span><span class="divider__glyph">❋</span><span
+          class="divider__line"></span></div>
+      <p class="footer__arabic" dir="rtl" lang="ar">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+      <p class="footer__names">Irfan Al Rehman &amp; Kadeja Liyana</p>
+      <p class="footer__note">Sunday, November 15th 2026 · Meruzila Convention Center Koduvally</p>
+      <p class="footer__note">WITH ALLAH'S BLESSING · TOGETHER WITH THEIR FAMILIES</p>
+      <div class="footer__divider-line" aria-hidden="true"></div>
+      <p class="footer__brand">Crafted with love ✦ 2026</p>
+    </div>
+  </footer>
+
+
+
+  <!-- ========================== MUSIC CONTROL ============================== -->
+  <audio id="bg-music" src="assets/music.mp3" loop preload="none"></audio>
+  <button class="music-toggle" id="music-toggle" aria-label="Play background music" aria-pressed="false">
+    <div class="music-toggle__disc" aria-hidden="true">
+      <svg class="music-toggle__icon" viewBox="0 0 24 24" fill="none">
+        <path d="M9 18V6l12-2v12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+          stroke-linejoin="round" />
+        <circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="1.5" />
+        <circle cx="18" cy="16" r="3" stroke="currentColor" stroke-width="1.5" />
+      </svg>
+    </div>
+    <span class="music-toggle__waves" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </span>
+  </button>
+
+  <script src="js/countdown.js"></script>
+  <script src="js/music.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/floatingFlowers.js"></script>
+  <script src="js/wishes.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5EDE1"/>
+      <stop offset="100%" stop-color="#E8D5BE"/>
+    </linearGradient>
+    <radialGradient id="c1" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#C9A07A" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#C9A07A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#g1)"/>
+  <rect width="400" height="500" fill="url(#c1)"/>
+  <!-- Couple silhouette -->
+  <circle cx="160" cy="160" r="52" fill="#C9A07A" opacity="0.4"/>
+  <circle cx="240" cy="150" r="46" fill="#B58A6A" opacity="0.38"/>
+  <!-- Bodies -->
+  <path d="M115 230 Q160 210 200 225 Q215 400 185 500 L115 500 Z" fill="#C9A07A" opacity="0.32"/>
+  <path d="M200 225 Q240 208 285 228 Q295 380 265 500 L200 500 Z" fill="#B08060" opacity="0.30"/>
+  <!-- Floral accent top -->
+  <circle cx="75" cy="60" r="22" fill="#9B3A52" opacity="0.18"/>
+  <circle cx="95" cy="45" r="14" fill="#B05060" opacity="0.15"/>
+  <circle cx="55" cy="80" r="16" fill="#7A9E7E" opacity="0.18"/>
+  <text x="200" y="455" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#8A7560" letter-spacing="3" opacity="0.7">IRFAN &amp; KADEJA</text>
+  <text x="200" y="480" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#A0907A" letter-spacing="2" opacity="0.55">WEDDING · 2026</text>
+</svg>

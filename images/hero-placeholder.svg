@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#3A1A24"/>
+      <stop offset="40%" stop-color="#5A2535"/>
+      <stop offset="100%" stop-color="#1A0C14"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="50%">
+      <stop offset="0%" stop-color="#C9A07A" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#C9A07A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="vignette" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#1A0C14" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#1A0C14" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#heroBg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+
+  <!-- Bokeh blurred circles -->
+  <circle cx="200" cy="200" r="80" fill="#9B3A52" opacity="0.08"/>
+  <circle cx="600" cy="150" r="60" fill="#C9A07A" opacity="0.07"/>
+  <circle cx="700" cy="500" r="90" fill="#7A9E7E" opacity="0.06"/>
+  <circle cx="100" cy="700" r="70" fill="#9B3A52" opacity="0.07"/>
+  <circle cx="650" cy="800" r="100" fill="#C9A07A" opacity="0.06"/>
+
+  <!-- Groom silhouette -->
+  <ellipse cx="470" cy="280" rx="70" ry="80" fill="#4A1E2A" opacity="0.9"/>
+  <path d="M395 360 C 390 380, 385 450, 380 550 C 375 650, 372 750, 370 900 L560 900 C 558 750, 555 650, 550 550 C 545 450, 540 380, 535 360 Z" fill="#3A1020" opacity="0.9"/>
+  <!-- Sherwani collar/detail -->
+  <path d="M420 360 L470 395 L520 360 L510 370 L470 400 L430 370 Z" fill="#6A2A3A" opacity="0.6"/>
+
+  <!-- Bride silhouette -->
+  <ellipse cx="330" cy="285" rx="62" ry="72" fill="#4A1E28" opacity="0.88"/>
+  <!-- Veil -->
+  <path d="M268 260 C 230 310, 220 400, 225 500 C 228 600, 232 700, 235 900 L425 900 C 428 700, 432 600, 435 500 C 440 400, 430 310, 392 260 Z" fill="#9B3A52" opacity="0.25"/>
+  <path d="M268 260 C 240 320, 230 420, 232 530 L268 530 L268 260 Z" fill="#C9A07A" opacity="0.1"/>
+  <!-- Lehenga silhouette -->
+  <path d="M268 400 C 250 480, 240 600, 235 900 L425 900 C 420 600, 410 480, 392 400 Z" fill="#6A1A28" opacity="0.7"/>
+
+  <!-- Floral overlay top left -->
+  <circle cx="60" cy="80" r="30" fill="#9B3A52" opacity="0.25"/>
+  <circle cx="90" cy="55" r="20" fill="#B05060" opacity="0.22"/>
+  <circle cx="35" cy="110" r="22" fill="#7A9E7E" opacity="0.2"/>
+  <circle cx="110" cy="90" r="16" fill="#C9A07A" opacity="0.2"/>
+
+  <!-- Floral overlay top right -->
+  <circle cx="740" cy="80" r="30" fill="#9B3A52" opacity="0.25"/>
+  <circle cx="710" cy="55" r="20" fill="#B05060" opacity="0.22"/>
+  <circle cx="765" cy="110" r="22" fill="#7A9E7E" opacity="0.2"/>
+  <circle cx="690" cy="90" r="16" fill="#C9A07A" opacity="0.2"/>
+
+  <!-- Light shaft -->
+  <path d="M350 0 L280 1000 L520 1000 L450 0 Z" fill="#C9A07A" opacity="0.03"/>
+
+  <!-- Bottom vignette -->
+  <rect width="800" height="1000" fill="url(#vignette)"/>
+
+  <!-- Text overlay hint -->
+  <text x="400" y="930" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#C9A07A" letter-spacing="6" opacity="0.5">REPLACE WITH YOUR PHOTO</text>
+</svg>

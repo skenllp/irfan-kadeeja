@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DFD0BE"/>
+      <stop offset="100%" stop-color="#F2E8D8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#g3)"/>
+  <!-- Arch frame -->
+  <path d="M80 500 L80 200 Q80 80 200 80 Q320 80 320 200 L320 500 Z" fill="none" stroke="#9B3A52" stroke-width="2" opacity="0.18"/>
+  <path d="M95 500 L95 205 Q95 100 200 100 Q305 100 305 205 L305 500 Z" fill="none" stroke="#C9A07A" stroke-width="1.2" opacity="0.15"/>
+  <!-- Couple inside arch -->
+  <circle cx="175" cy="195" r="40" fill="#C9A07A" opacity="0.38"/>
+  <circle cx="225" cy="200" r="36" fill="#B08060" opacity="0.34"/>
+  <path d="M130 270 Q175 250 215 265 Q225 400 205 500 L135 500 Z" fill="#C9A07A" opacity="0.28"/>
+  <path d="M215 265 Q255 248 275 272 Q285 390 260 500 L215 500 Z" fill="#A07050" opacity="0.26"/>
+  <!-- Floral top -->
+  <circle cx="200" cy="58" r="20" fill="#9B3A52" opacity="0.22"/>
+  <circle cx="178" cy="52" r="14" fill="#B05060" opacity="0.18"/>
+  <circle cx="222" cy="52" r="14" fill="#7A9E7E" opacity="0.18"/>
+  <circle cx="200" cy="40" r="9" fill="#C9A07A" opacity="0.2"/>
+  <!-- Bottom -->
+  <text x="200" y="462" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#7B5A46" letter-spacing="5" opacity="0.6">CEREMONY</text>
+  <line x1="130" y1="472" x2="270" y2="472" stroke="#9B3A52" stroke-width="0.8" opacity="0.3"/>
+  <text x="200" y="490" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#9A8070" letter-spacing="2" opacity="0.5">PLACEHOLDER IMAGE</text>
+</svg>

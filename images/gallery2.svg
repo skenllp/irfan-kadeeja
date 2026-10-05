@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EDE0D4"/>
+      <stop offset="100%" stop-color="#D9C5AD"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#9B3A52" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#9B3A52" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#g2)"/>
+  <rect width="400" height="500" fill="url(#glow2)"/>
+  <!-- Floral ring -->
+  <circle cx="200" cy="210" r="110" fill="none" stroke="#9B3A52" stroke-width="1.5" opacity="0.25" stroke-dasharray="8,6"/>
+  <circle cx="200" cy="210" r="90" fill="none" stroke="#C9A07A" stroke-width="1" opacity="0.2" stroke-dasharray="4,8"/>
+  <!-- Silhouette head -->
+  <circle cx="200" cy="165" r="55" fill="#B89070" opacity="0.35"/>
+  <!-- Veil/dupatta -->
+  <path d="M145 165 Q100 240 110 340 L160 500 L240 500 L290 340 Q300 240 255 165 Z" fill="#9B3A52" opacity="0.12"/>
+  <!-- Rose accent -->
+  <circle cx="320" cy="80" r="28" fill="#9B3A52" opacity="0.2"/>
+  <circle cx="315" cy="75" r="18" fill="#B05060" opacity="0.22"/>
+  <circle cx="80" cy="400" r="24" fill="#7A9E7E" opacity="0.2"/>
+  <!-- Bottom label -->
+  <text x="200" y="462" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#7B5A46" letter-spacing="5" opacity="0.65">PORTRAIT</text>
+  <line x1="120" y1="472" x2="280" y2="472" stroke="#C9A07A" stroke-width="0.8" opacity="0.4"/>
+  <text x="200" y="490" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#9A8070" letter-spacing="3" opacity="0.5">PLACEHOLDER</text>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "name": "Irfan Al Rehman & Kadeja Liyana — Wedding Invitation",
+  "short_name": "I & K Wedding",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F9F5EF",
+  "theme_color": "#F9F5EF",
+  "icons": [
+    {
+      "src": "favicon/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

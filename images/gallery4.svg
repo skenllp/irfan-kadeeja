@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="g4" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0E4D4"/>
+      <stop offset="100%" stop-color="#DCC8AE"/>
+    </linearGradient>
+    <radialGradient id="glow4" cx="70%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#7A9E7E" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#7A9E7E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#g4)"/>
+  <rect width="400" height="500" fill="url(#glow4)"/>
+  <!-- Hands joined silhouette -->
+  <path d="M130 260 Q165 230 200 240 Q235 230 270 260 Q290 280 270 310 Q240 340 200 330 Q160 340 130 310 Q110 280 130 260 Z" fill="#C9A07A" opacity="0.3"/>
+  <!-- Couple figures -->
+  <circle cx="150" cy="170" r="45" fill="#B89070" opacity="0.34"/>
+  <circle cx="250" cy="170" r="45" fill="#A07858" opacity="0.32"/>
+  <path d="M105 240 Q150 218 190 232 Q200 370 175 500 L105 500 Z" fill="#B89070" opacity="0.26"/>
+  <path d="M210 232 Q250 215 295 240 Q305 365 280 500 L205 500 Z" fill="#9A7058" opacity="0.25"/>
+  <!-- Bokeh circles -->
+  <circle cx="60" cy="100" r="30" fill="#9B3A52" opacity="0.1"/>
+  <circle cx="350" cy="150" r="22" fill="#C9A07A" opacity="0.12"/>
+  <circle cx="340" cy="420" r="35" fill="#7A9E7E" opacity="0.1"/>
+  <circle cx="40" cy="380" r="25" fill="#9B3A52" opacity="0.1"/>
+  <!-- Bottom -->
+  <text x="200" y="462" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#7B5A46" letter-spacing="5" opacity="0.6">TOGETHER</text>
+  <line x1="130" y1="472" x2="270" y2="472" stroke="#C9A07A" stroke-width="0.8" opacity="0.3"/>
+  <text x="200" y="490" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#9A8070" letter-spacing="2" opacity="0.5">PLACEHOLDER IMAGE</text>
+</svg>
