@@ -776,23 +776,24 @@ a { color: inherit; text-decoration: none; }
   font-size: clamp(0.72rem, 1.8vw, 0.88rem);
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #607254;
+  color: #ffffff;
   margin: 0 0 var(--sp-2);
   font-weight: 600;
   opacity: 0.95;
   text-align: center;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Names — luxury premium cursive font styled in olive-green */
+/* Names — luxury premium cursive font styled in white */
 .hero__names {
   font-family: var(--font-script); /* 'Edwardian Script ITC', 'Great Vibes', cursive */
-  font-size: clamp(2.6rem, 6.2vw, 5.2rem);
+  font-size: clamp(3.2rem, 7.5vw, 6.2rem);
   line-height: 1.3;
   margin: 0 0 var(--sp-1);
-  color: #607254; /* Premium olive-green */
+  color: #ffffff;
   font-weight: 400;
   letter-spacing: normal;
-  text-shadow: 0 2px 12px rgba(255, 255, 255, 0.95);
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
   text-align: center;
   padding: 0.12em 0;
   -webkit-text-stroke: 0.4px currentColor;
@@ -800,7 +801,7 @@ a { color: inherit; text-decoration: none; }
 
 .hero__amp {
   font-family: var(--font-script);
-  color: #607254;
+  color: #ffffff;
   padding: 0 0.15em;
   font-size: 0.92em;
   position: relative;
@@ -813,13 +814,14 @@ a { color: inherit; text-decoration: none; }
   font-family: var(--font-body);
   font-style: italic;
   font-size: clamp(0.95rem, 2.2vw, 1.2rem);
-  color: var(--color-text-light);
+  color: #ffffff;
   max-width: 480px;
   margin: 0 0 var(--sp-4);
   line-height: 1.85;
   text-align: center;
-  text-shadow: 0 1px 8px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   font-weight: 500;
+  opacity: 0.95;
 }
 
 /* Legacy placeholders */
@@ -846,14 +848,16 @@ a { color: inherit; text-decoration: none; }
   font-size: 0.6rem;
   letter-spacing: 0.35em;
   text-transform: uppercase;
-  color: rgba(201, 160, 122, 0.8);
+  color: #ffffff;
   font-weight: 600;
+  opacity: 0.9;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 }
 
 .hero__scroll-line {
   width: 1px;
   height: 40px;
-  background: rgba(201, 160, 122, 0.3);
+  background: rgba(255, 255, 255, 0.4);
   overflow: hidden;
   position: relative;
 }
@@ -1904,21 +1908,22 @@ a { color: inherit; text-decoration: none; }
 
 .couple-card__role {
   font-family: var(--font-display);
-  font-size: 0.65rem;
-  letter-spacing: 0.18em;
+  font-size: 0.82rem;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--color-gold-light);   /* light gold on dark bg */
-  opacity: 0.9;
+  opacity: 0.95;
   margin: 0;
+  font-weight: 600;
 }
 
 .couple-card__name {
   font-family: var(--font-script);
-  font-size: clamp(2.1rem, 4.2vw, 2.65rem);
+  font-size: clamp(2.8rem, 5.8vw, 3.8rem);
   color: var(--color-gold);         /* warm gold name */
   margin: 0;
   line-height: 1.25;
-  -webkit-text-stroke: 0.35px currentColor;
+  -webkit-text-stroke: 0.4px currentColor;
   text-align: center;
   word-break: normal;
 }
