@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://irfan-kadeeja.vercel.app/sitemap.xml
+Sitemap: https://irfan-liyana.vercel.app/sitemap.xml
